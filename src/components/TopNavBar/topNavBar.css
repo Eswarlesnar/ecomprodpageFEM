@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   height: 112px;
-  border-bottom: 0.5px solid #68707d;
+  border-bottom: 0.2px solid gainsboro;
 }
 
 .navbar-content {
@@ -154,6 +154,7 @@
 @media screen and (max-width: 500px) {
   .navbar {
     height: 60px;
+    border: none;
   }
   .navbar-content {
     width: 100%;

@@ -1,6 +1,6 @@
 import Button from "@mui/material/Button";
 import { useContext, useState } from "react";
-import iconCart from "../../assets/icon-cart.svg";
+import iconCart from "../../../public/assets/icon-cart.svg";
 import { cartContext } from "../../context/cartContext";
 import "./productDetails.css";
 

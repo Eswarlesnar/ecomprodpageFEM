@@ -4,7 +4,7 @@ import { cartContext } from "../../context/cartContext";
 import { useContext } from "react";
 import Divider from "@mui/material/Divider";
 import Button from "@mui/material/Button";
-import image1 from "../../assets/image-product-1-thumbnail.jpg";
+import image1 from "../../../public/assets/image-product-1-thumbnail.jpg";
 
 function CartModal(props) {
   const { open, onClose, anchor } = props;

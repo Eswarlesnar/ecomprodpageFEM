@@ -1,7 +1,7 @@
-import image1_thumbnail from "../../assets/image-product-1-thumbnail.jpg";
-import image2_thumbnail from "../../assets/image-product-2-thumbnail.jpg";
-import image3_thumbnail from "../../assets/image-product-3-thumbnail.jpg";
-import image4_thumbnail from "../../assets/image-product-4-thumbnail.jpg";
+import image1_thumbnail from "../../../public/assets/image-product-1-thumbnail.jpg";
+import image2_thumbnail from "../../../public/assets/image-product-2-thumbnail.jpg";
+import image3_thumbnail from "../../../public/assets/image-product-3-thumbnail.jpg";
+import image4_thumbnail from "../../../public/assets/image-product-4-thumbnail.jpg";
 import ImageModal from "./ImageModal";
 import ProductImagesMobile from "./ProductImagesMobile";
 import "./productImages.css";
