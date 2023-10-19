@@ -1,0 +1,167 @@
+.product-details {
+  width: 500px;
+}
+
+.product-company {
+  color: var(--Orange, #ff7d1a);
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+}
+
+.product-name {
+  color: var(--Very-dark-blue, #1d2025);
+  font-family: Kumbh Sans;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin-top: 20px;
+}
+
+.product-description {
+  color: var(--Grayish-blue, #68707d);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.product-offer-container {
+  display: flex;
+  gap: 20px;
+}
+
+.product-offer-price {
+  color: var(--Very-dark-blue, #1d2025);
+  font-family: Kumbh Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.product-offer-percent {
+  color: var(--Orange, #ff7d1a);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  background: #ff7d1a10;
+}
+
+.product-actual-price {
+  color: var(--Very-dark-blue, #1d2025);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.48px;
+  text-decoration: line-through;
+  margin: 0px;
+}
+
+.product-addtocart {
+  display: flex;
+  gap: 15px;
+}
+
+.product-quantity-changer {
+  display: flex;
+  width: 157px;
+  height: 55px;
+  padding: 10px 16px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--Light-grayish-blue, #f7f8fd);
+}
+
+.product-quantity-changer button {
+  padding: none;
+  flex-shrink: 0;
+  color: #ff7e1b;
+  background-color: transparent;
+  border: none;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.product-addtocart {
+  margin-top: 35px;
+}
+
+.product-addtocart > .MuiButtonBase-root {
+  display: flex;
+  padding: 17px 0px;
+  width: 260px;
+  height: 55px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #ff7e1b;
+  color: white;
+  text-transform: none;
+}
+
+.product-addtocart > .MuiButtonBase-root:hover {
+  background-color: #ff7e1b; /* had to do this because mui button settign background transparent on hover*/
+}
+
+@media screen and (max-width: 600px) {
+  .product-details {
+    width: auto;
+    padding: 0px 15px;
+  }
+
+  .product-addtocart {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-quantity-changer {
+    width: 90%;
+  }
+
+  .product-addtocart > .MuiButtonBase-root {
+    width: 90%;
+  }
+
+  .product-name {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+
+  .product-description {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+  .product-company {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .product-offer-price {
+    font-size: 20px;
+  }
+
+  .product-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,19 @@
+.main-image-container img {
+  width: 445px;
+  border-radius: 15px;
+}
+
+.image-selector {
+  display: flex;
+  gap: 30px;
+}
+
+.small-image {
+  width: 88px;
+  border-radius: 10px;
+}
+
+.active-image {
+  border: 2px solid var(--Orange, #ff7d1a);
+  opacity: 0.5;
+}

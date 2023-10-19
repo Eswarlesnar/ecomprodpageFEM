@@ -1,0 +1,168 @@
+.navbar-container .MuiAppBar-root {
+  background-color: white;
+  /* box-shadow: none; */
+  color: "black";
+  box-shadow: none;
+}
+
+.navbar-container .MuiToolbar-root {
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  height: 112px;
+  border-bottom: 0.5px solid #68707d;
+}
+
+.navbar-content {
+  height: 112px;
+  padding: 0px 165px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 400px;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 58px;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 45px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.cart-button {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.cart-items-indicator {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ff7e1b;
+  color: white; /* Text color of the indicator */
+  border-radius: 45%; /* Make it a circle */
+  width: 20px; /* Adjust as needed */
+  height: 15px; /* Adjust as needed */
+  text-align: center;
+  line-height: 15px; /* Vertical centering of text */
+  font-size: 12px; /* Adjust as needed */
+}
+
+/* .cart-items-indicator span {
+  font-size: 5px;
+  color: white;
+} */
+
+.nav-link-container {
+  padding: 0;
+  margin: 0;
+  height: 112px;
+  display: grid;
+  align-content: center;
+}
+
+.nav-link {
+  color: var(--Grayish-blue, #68707d);
+  font-family: Kumbh Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.active-border-bottom {
+  border-bottom: 4px solid #ff7d1a;
+}
+
+.transparent-border-bottom {
+  border-bottom: 4px solid transparent;
+}
+
+.navbar-header {
+  margin-top: -4px;
+  color: var(--Black, #000);
+  font-family: Outfit;
+  font-size: 31px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 10px;
+  letter-spacing: 1.24px;
+}
+
+.drawer-close {
+  height: 112px;
+  display: flex;
+  margin-right: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon-button {
+  margin-left: 16px !important;
+  height: 40px;
+  width: 40px;
+}
+
+.icon-button svg {
+  fill: inherit;
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar-content {
+    gap: 200px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar-content {
+    padding: 0px 60px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav-links {
+    display: none;
+  }
+
+  .navbar-content {
+    width: 100%;
+    padding: 0px 0px;
+    gap: 100px;
+  }
+
+  .navbar-right {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    height: 60px;
+  }
+  .navbar-content {
+    width: 100%;
+    height: 60px;
+    padding: 0px 0px;
+    gap: 10px;
+  }
+
+  .navbar-right {
+    justify-content: center;
+  }
+}

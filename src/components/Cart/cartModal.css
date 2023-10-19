@@ -1,0 +1,73 @@
+.MuiPopover-paper {
+  display: flex;
+  width: 360px;
+  height: 260px;
+  padding: 10px 24px 34px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 26px;
+  flex-shrink: 0;
+}
+
+.cart-value {
+  width: 99%;
+  height: 100%;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cart-value img {
+  width: 50px;
+  border-radius: 4px;
+}
+
+.cart-value p {
+  margin: 0;
+  color: var(--Grayish-blue, #68707d);
+  font-family: Kumbh Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 11px; /* 73.333% */
+  letter-spacing: 0.6px;
+}
+
+.cart-value > .MuiButtonBase-root {
+  padding: 17px 0px;
+  width: 100%;
+  height: 55px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #ff7e1b;
+  color: white;
+  text-transform: none;
+}
+
+.cart-value > .MuiButtonBase-root:hover {
+  background-color: #ff7e1b; /* had to do this because mui button settign background transparent on hover*/
+}
+
+.cart-header {
+  margin: 0;
+}
+
+.cart-item-details {
+  display: flex;
+  gap: 8px;
+}
+
+.cart-item-cumulative {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.cart-item-original {
+  font-size: 14px;
+  font-weight: 300;
+}
